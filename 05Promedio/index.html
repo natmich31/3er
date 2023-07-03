@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Calificaciones</title>
+  <a class=" bg-danger-subtle nav-link active"aria-current="page" href="/index.html">HOME</a>
+  <link rel="stylesheet" href="/js/bootstrap.min.css">
+</head>
+
+<body onload="calcular()">
+  <div class="container text-center">
+    <h1 class="bg-danger text-white mt-2 p-2">CALIFICACIONES📝</h1>
+    <hr>
+    <div class="card w-30 m-auto overflow-hidden mt-2">
+      <h3 class="bg-success text-white">MÓDULO</h3>
+      <input type="range" class="form-control" id="modulo" min="5" max="10" value="7">
+      <span id="mo" class="h1">7</span>
+      
+    </div>
+    
+      <div class="card w-30 m-auto overflow-hidden mt-2">
+      <h3 class="bg-primary text-white">INGLÉS</h3>
+      <input type="range" class="form-control" id="ingles" min="5" max="10" value="7">
+      <span id="in" class="h1">7</span>
+      
+    </div>
+    
+      <div class="card w-30 m-auto overflow-hidden mt-2">
+      <h3 class="bg-warning text-white">FÍSICA</h3>
+      <input type="range" class="form-control" id="fisica" min="5" max="10" value="7">
+      <span id="fi" class="h1">7</span>
+      
+    </div>
+
+  <div class="card w-30 m-auto overflow-hidden mt-2">
+      <h3 class="bg-dark text-white">ECOLOGÍA</h3>
+      <input type="range" class="form-control" id="ecologia" min="5" max="10" value="7">
+      <span id="ec" class="h1">7</span>
+      
+    </div>
+
+  <div class="card w-30 m-auto overflow-hidden mt-2">
+      <h3 class="bg-info text-white">CÁLCULO</h3>
+      <input type="range" class="form-control" id="calculo" min="5" max="10" value="7">
+      <span id="ca" class="h1">7</span>
+      
+    </div>
+      <div class="card w-30 m-auto overflow-hidden mt-2 mn-5">
+      <h3 class="bg-secondary text-white">PROMEDIO</h3>
+      <h1 id="promedio" class="text-white">10</h1>
+    </div>
+
+
+  </div>
+  <script src="/js/bootstrap.min.js"></script>
+  <script src="/js/sweetalert2.all.min.js"></script>
+   <script src="app.js"></script>
+
+ </body>
+
+</html>
